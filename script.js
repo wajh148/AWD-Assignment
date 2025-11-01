@@ -1,4 +1,3 @@
-
 const themeToggle = document.getElementById('theme-toggle');
 let isDarkMode = true;
 
@@ -13,4 +12,5 @@ themeToggle.addEventListener('click', function() {
         themeToggle.textContent = 'Dark Mode';
     }
 });
+
 
